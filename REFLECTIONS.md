@@ -16,9 +16,13 @@ Overall, this lab helped me see why data preparation is an important step in mac
 
 ---
 
-## Member 2: [Full Name]
+## Member 2: Saimi Manasiya
 
-### Tasks Completed
+
+In this lab, I learned about the importance of data preparation in machine learning using the Titanic dataset. I understood how to handle missing values, encode categorical data, and scale numerical features. I learned that preparing data properly is an important step before building a machine learning model because the quality of the data can affect the results. This lab also helped me understand how Python and pandas can be used to clean and organize a dataset.
+
+I also gained a better understanding of how different data preparation techniques work and why they are needed. I learned that missing values can be handled using the median, categorical data can be converted into numerical form through encoding, and numerical features can be scaled using StandardScaler. Overall, this lab improved my practical knowledge and helped me feel more confident working with datasets. It also taught me the importance of teamwork, communication, and learning from other group members.
+
 
 ---
 
