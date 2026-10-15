@@ -12,9 +12,10 @@ In addition, I worked on improving the PDF formatting so that the code, explanat
 
 ---
 
-## Member 2: [Full Name]
+## Member 2: Saimi Manasiya
+I contributed to the Lab 05 group assignment by participating in the data preparation process and learning about the different steps involved in preparing the Titanic dataset. I worked with my team members to understand how to handle missing values, encode categorical data, and scale numerical features. I also participated in group discussions, shared ideas, and helped my teammates understand the concepts involved in the lab.
 
-### Tasks Completed
+Through this assignment, I improved my practical knowledge of Python and pandas and learned how to prepare data before using it in machine learning. I understood the importance of checking data quality, handling missing information correctly, and organizing the dataset properly. I also learned how teamwork, communication, and sharing responsibilities help complete a group assignment successfully. Overall, this lab helped me improve my technical skills and gain a better understanding of the data preparation process.
 
 ---
 
