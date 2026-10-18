@@ -52,18 +52,23 @@ Introduction
 data preparation is a critical and time-consuming stage of every machine learning project. This lab perfectly demonstrated why real-world data is rarely model-ready and showed how we systematically prepare data for machine learning pipelines. Through this lab, I dove deep into the data preparation process, which gave me a better understanding of each technique and concept. I worked with the Titanic dataset, which I previously had the chance to work with in another project. It contains passenger information but is riddled with missing values. The goal of this project was to go through the data preprocessing steps and clean the data thoroughly for machine learning projects.
 
 Phase 1: Initial Data Ingestion and Exploratory Visualization
+
 First, I imported the necessary libraries, such as pandas and numpy, and loaded the Titanic dataset directly from a public URL using pd.read_csv(). Then, I displayed the first five rows of the dataset using display(df.head()). I noticed that there were several missing values in the dataset. In order to better analyze the data before cleaning it, I used matplotlib and seaborn to visualize the data through a missing value heatmap and a count of missing values per column.
 
 Phase 2: Missing Data Mitigation and Strategic Imputation
+
 Second, I had to handle the missing values and drop redundant columns, because most machine learning models cannot handle missing data. I dropped the redundant text columns that were missing too many values. I also used imputation techniques, which means filling missing values with a calculated guess, to fill the remaining empty columns. Specifically, I used the median age to fill the missing Age values and the mode to fill the missing Embarked port values. Afterward, I verified the Age column imputation to ensure that there were no missing values remaining.
 
 Phase 3: Categorical Feature Transformation via One-Hot Encoding
+
 Then, I had to encode the categorical features. Because machine learning models are mathematical, they need numbers instead of text. I converted categorical columns such as Sex and Embarked into a numerical format using the one-hot encoding method. This method turns categorical values into numerical values like 1 and 0, and transforms the text fields into binary True and False indicators. Finally, I verified the encoded features to ensure Sex and Embarked columns successfully transformed into clean numerical indicators.
 
 Phase 4: Feature scaling concept:
+
 Models are sensitive to the scale of features. For instance, age (0-80) and fare (0-512) are on two different scales. This can cause the model to be biased toward fare; because fare has bigger numbers, the model will assume fare is more important. To solve this issue, we use feature scaling. Feature scaling puts all the values on the same scale. Standardization is a common method which uses StandardScaler in Scikit-learn. This puts all the numbers to have a mean of zero and a standard deviation of 1.
 
 Phase 5: Post-Preprocessing Diagnostic Analysis and Insights
+
 For plotting post-preprocessing insights, I used code to visualize two updated diagnostic charts: the new missing value heatmap and a correlation matrix of the numerical and encoded features. This insight confirms that no missing values remain in the dataset. Additionally, the correlation heatmap measures the strength of the relationships between all numerical features.
 Challenges: For this lab, I faced different challenges, from code issues and indentation errors to searching for ‘Age’ or ‘Sex’ instead of ‘age’ and ‘sex’, which I had to use the code copilot to overcome. These debugging experiences and working through these issues helped me to develop my diagnostic skills. Furthermore, to develop my skills beyond the assignment, I split the dataset into train and test sets. Splitting the dataset into 80% training data and 20% testing data allows us to evaluate the performance on unseen data.
 
