@@ -47,9 +47,8 @@ Professor: Viswanatha Rao
 
 18 Oct 2026
 
-Introduction
 
-data preparation is a critical and time-consuming stage of every machine learning project. This lab perfectly demonstrated why real-world data is rarely model-ready and showed how we systematically prepare data for machine learning pipelines. Through this lab, I dove deep into the data preparation process, which gave me a better understanding of each technique and concept. I worked with the Titanic dataset, which I previously had the chance to work with in another project. It contains passenger information but is riddled with missing values. The goal of this project was to go through the data preprocessing steps and clean the data thoroughly for machine learning projects.
+  Data preparation is a critical and time-consuming stage of every machine learning project. This lab perfectly demonstrated why real-world data is rarely model-ready and showed how we systematically prepare data for machine learning pipelines. Through this lab, I dove deep into the data preparation process, which gave me a better understanding of each technique and concept. I worked with the Titanic dataset, which I previously had the chance to work with in another project. It contains passenger information but is riddled with missing values. The goal of this project was to go through the data preprocessing steps and clean the data thoroughly for machine learning projects.
 
 Phase 1: Initial Data Ingestion and Exploratory Visualization
 
