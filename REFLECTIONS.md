@@ -69,6 +69,7 @@ Models are sensitive to the scale of features. For instance, age (0-80) and fare
 Phase 5: Post-Preprocessing Diagnostic Analysis and Insights
 
 For plotting post-preprocessing insights, I used code to visualize two updated diagnostic charts: the new missing value heatmap and a correlation matrix of the numerical and encoded features. This insight confirms that no missing values remain in the dataset. Additionally, the correlation heatmap measures the strength of the relationships between all numerical features.
+
 Challenges: For this lab, I faced different challenges, from code issues and indentation errors to searching for ‘Age’ or ‘Sex’ instead of ‘age’ and ‘sex’, which I had to use the code copilot to overcome. These debugging experiences and working through these issues helped me to develop my diagnostic skills. Furthermore, to develop my skills beyond the assignment, I split the dataset into train and test sets. Splitting the dataset into 80% training data and 20% testing data allows us to evaluate the performance on unseen data.
 
 Overall, this lab showed me the gap between raw and messy data and structured model deployment. Through this lab, I dove deep into the data preparation process, which provided me a better understanding of each technique. Now I feel confident using these techniques in future projects. I will always follow each step to build a clean, modular preprocessing pipeline.
