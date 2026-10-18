@@ -19,9 +19,13 @@ Through this assignment, I improved my practical knowledge of Python and pandas 
 
 ---
 
-## Member 3: [Full Name]
+## Member 3: Hashim Sayed HOOSINI
+Lab 05 – Contribution Journal
+## ITAI 1371 –
+Contribution:
+For Lab 5, my focus was on One-Hot Encoding. I contributed to the team by converting the categorical features into numerical values using the One-Hot Encoding technique. This transformation is a necessary step for the data preparation process because machine learning models are mathematical and require numbers instead of text. I converted categorical columns such as Sex and Embarked into a numerical format using the One-Hot Encoding technique. This method turns categorical values into numerical values like 1 and 0, and transforms the text fields into binary True and False indicators. Finally, I verified the encoded features to ensure the Sex and Embarked columns successfully transformed into clean numerical indicators
 
-### Tasks Completed
+
 
 ---
 
