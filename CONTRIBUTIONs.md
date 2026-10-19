@@ -31,9 +31,21 @@ For Lab 5, my focus was on One-Hot Encoding. I contributed to the team by conver
 
 ---
 
-## Member 4: [Full Name]
+## Member 4: Kenneth Kouokam
 
-### Tasks Completed
+My assigned contribution to the Module 05 group lab is Dataset Setup and Initial Review. My role is to
+load the Titanic dataset into a pandas DataFrame, examine its structure, and check the column types
+and missing-value counts. This initial review will help the group understand which columns contain
+numbers, which contain categories, and where information is missing before making changes. I am
+also responsible for checking that the setup cell runs correctly so the other members can continue
+with the same starting data.
+
+The main purpose of my part is to give the group a clear starting point for data preparation. I will
+summarize the issues found during the initial checks and identify what needs attention in the later
+steps, especially missing ages and categorical columns such as Sex and Embarked. Before handing
+over my section, I will make sure the initial outputs are visible and easy to understand. My
+contribution supports the members handling imputation, encoding, and scaling by helping them see
+why those steps are needed.
 
 ---
 
