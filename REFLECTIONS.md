@@ -64,11 +64,31 @@ understanding the starting data makes the later choices easier to explain and ch
 
 ---
 
-## Member 4: [Full Name]
+## Member 4: Anavictoria Cavazos
 
-### Tasks Completed
+Reflection for Module 05
 
----
+For Module 05 I learned the different steps and parts in preparing data, such as the importance of the median,
+one-hot encoding, and the difference in certain features. Starting with the importance of the median in data when there 
+are missing values. When it comes to missing values/numbers in data you still want the best accuracy of your data, so 
+when you use the median instead of the mean, your outcomes have a higher chance of being accurate because the outliers 
+are not affecting the outcome since they are being overlooked in this part. 
+
+When I did the one-hot encoding I had to relook at the steps that I had just done to really notice the process to understand
+fully what one-hot encoding is. Based on the one-hot encoding that I practiced in the assignment, one-hot encoding is taking in a 
+text or words where this type of coding adjusts to 0 and 1, for true or false, so that the data can be processed as numbers and have 
+an output instead of an error. This helped me see and understand the language for certain parts of the data and how some coding
+sometimes has to be specific and fixed in order for it to be able to be imputed with a good output. 
+
+In addition, in some of the steps that I used through the data preparation, I noticed how each of the features functioned
+in ways that worked according to the data and expected outcomes. One of these steps was feature scaling, which 
+is applied when features may range in numbers that can add importance to a feature that is not actually if importance
+simply because it has a larger number. This was seen in step/ task 3, where the method standardization was used for 'age'
+and 'fare' because both are seen in forms of number. Aside from completing this task, this part helped me understand that
+sometimes in data, you have to shorten it using certain codes, so then the data is shown in a proper way, which is done
+during proper preparation for a proper/expected output.
+
+
 
 ## Member 5: Hashim Sayed Hoosini
 
