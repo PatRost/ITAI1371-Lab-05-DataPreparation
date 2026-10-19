@@ -49,9 +49,16 @@ why those steps are needed.
 
 ---
 
-## Member 5: [Full Name]
+## Member 5: Anavictoria Cavazos
 
-### Tasks Completed
+L05-Contribution
+
+In the assignment for the week, my personal contribution was to do my indepedent part of the google colab. I further worked on the 
+assignment in detail for personal knowledge, so once I completed the module, I broke it down in sections, and analyzed each individual 
+task seperatley to understand what each step was really accomplishing. In addittion, I tried to handle my reflection and contribution  
+before the due date, so my group would not be backed up in submitting the module. I also helped out in contributing when members had 
+questions or updates on assignments by communicating when able to. 
+
 
 ---
 
