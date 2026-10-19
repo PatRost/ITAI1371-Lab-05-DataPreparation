@@ -26,9 +26,40 @@ I also gained a better understanding of how different data preparation technique
 
 ---
 
-## Member 3: [Full Name]
+## Member 3: Kenneth Kouokam
 
-### Tasks Completed
+For Module 05, my assigned role is Dataset Setup and Initial Review. The main idea I take from this
+part of the lab is that loading a dataset is only the beginning of preparing it. A table can look
+organized while still containing missing information or columns that need to be transformed. Before
+thinking about a model, I need to understand what the data contains and what might make it difficult
+to use. This gives the setup stage more purpose than simply getting the notebook started.
+
+Missing values are an important example. A blank age does not mean that a passenger was zero
+years old; it means that the information is unavailable. That difference matters because replacing a
+missing value with an arbitrary number could change the meaning of the data. Checking
+missing-value counts first helps explain why a later step fills missing ages with the median. It also
+reminds me that filling a gap produces an estimate, not the passenger's actual age. A
+complete-looking table is not automatically an accurate one.
+
+Column types are another part of the initial review that connects directly to the rest of the lab. Age
+and Fare represent numerical measurements, while Sex and Embarked describe categories. These
+columns need different treatment, so I cannot apply the same preparation step to everything.
+Encoding gives categories a form that many models can use, while scaling changes the numerical
+range of selected measurements. Understanding these differences helps me see the notebook as a
+sequence of decisions rather than a list of commands to copy.
+
+This also connects to the exploratory data analysis from the previous module. Exploring data helps
+reveal patterns, but it can also reveal problems that need attention before further analysis. For my
+role, the useful question is not just whether the file loads, but whether the group understands the
+starting data. Recording the original missing-value counts will give us something to compare with the
+later results. That comparison is a simple way to check whether a preparation step actually did what
+we intended.
+
+As I carry out my section, I want to focus on explaining what each check tells me instead of only
+looking for an error-free output. One question I want to keep in mind is whether different columns
+need different approaches to missing information. I also want my notes to be clear enough for the
+next group member to use. My takeaway is that careful preparation begins with careful observation:
+understanding the starting data makes the later choices easier to explain and check.
 
 
 ---
